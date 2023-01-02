@@ -1,0 +1,42 @@
+{
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "emailjs-com": "^2.6.3",
+    "gh-pages": "^4.0.0",
+    "gsap": "^3.5.1",
+    "netlify-cli": "^2.37.0",
+    "radium": "^0.26.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-ga": "^3.1.2",
+    "react-rellax": "^1.0.3",
+    "react-reveal": "^1.2.2",
+    "react-router-hash-link": "^2.1.0",
+    "react-scripts": "^5.0.1",
+    "react-scroll": "^1.8.1",
+    "styled-components": "^5.1.1"
+
+    "scripts": {
+        "predeploy": "npm run build",
+    -   "deploy": "gh-pages -d build",
+    +   "deploy": "gh-pages -b masnpm run deployter -d build",
+    }
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "babel-eslint": "10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "18.0.0",
+    "eslint-config-prettier": "4.1.0",
+    "eslint-config-wesbos": "0.0.23",
+    "eslint-plugin-html": "6.0.3",
+    "eslint-plugin-import": "2.18.0",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-prettier": "3.0.1",
+    "eslint-plugin-react": "7.20.6",
+    "eslint-plugin-react-hooks": "1.4.0",
+    "prettier": "1.16.4"
+  }
+}

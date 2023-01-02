@@ -1,0 +1,45 @@
+.service{
+    max-width: 370px;
+    width: 100%;
+    position: relative;
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.service__svg{
+    position: absolute;
+    transform:translate(-75%, -30%);
+}
+
+.service__h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.18538em;
+    color: #000000;
+}
+
+.service__p{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: justify;
+    margin-top: 20px;
+    color: #000000;
+}
+
+@media (max-width: 1000px) {
+	.service{
+        margin-top: 100px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+}
